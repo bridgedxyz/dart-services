@@ -26,3 +26,4 @@ config.properties
 
 # Editor configuration
 .vscode/
+.DS_Store

@@ -27,6 +27,8 @@ class FlutterWebManager {
   static final Set<String> _flutterWebImportPrefixes = <String>{
     'package:flutter',
     'dart:ui',
+    // BRIDGED:OVERRIDE
+    'package:dynamic'
   };
 
   bool usesFlutterWeb(Set<String> imports) {

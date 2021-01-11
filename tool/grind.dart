@@ -338,6 +338,7 @@ Future<void> runWithLogging(String executable,
 
 const String _samplePackageName = 'dartpad_sample';
 
+// BRIDGED:OVERRIDE
 String createPubspec({@required bool includeFlutterWeb}) {
   // Mark the samples as not null safe.
   var content = '''
@@ -353,6 +354,8 @@ dependencies:
     sdk: flutter
   flutter_test:
     sdk: flutter
+  # BRIDGED:OVERRIDE
+  dynamic: ^0.0.4+9
 ''';
   }
 

@@ -109,7 +109,7 @@ class Compiler {
       _logger.warning('Compiler failed: $e\n$st');
       rethrow;
     } finally {
-      await temp.delete(recursive: true);
+      // await temp.delete(recursive: true);
       _logger.info('temp folder removed: ${temp.path}');
     }
   }

@@ -7,6 +7,10 @@ A server backend to support DartPad.
 [![Uptime Status](https://img.shields.io/badge/uptime-Pingdom-blue.svg)](http://stats.pingdom.com/8n3tfpl1u0j9)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/dart-lang/dart-services)
 
+## Bridged override implementation
+
+Read more at [override](./lib/src/overrides/README.md)
+
 ## What is it? What does it do?
 
 This project is a small, stateless Dart server, which powers the front-end of DartPad.
@@ -64,7 +68,7 @@ or:
 `grind deploy` for all tests and checks.
 
 dart-services requires the `redis` package, including the `redis-server` binary,
-to be installed to run tests.  `sudo apt-get install redis-server` will install
+to be installed to run tests. `sudo apt-get install redis-server` will install
 this on Ubuntu, but see [Redis' Quick Start guide](https://redis.io/topics/quickstart) for other platforms.
 
 ## Deploying
